@@ -12,7 +12,7 @@ class UserController extends Controller
 
     public function showAllUser(UsersDataTable $dataTable)
     {
-        return $dataTable->render('users.index');
+        return $dataTable->render('user.index');
     }
 
     public function index(Request $request)
